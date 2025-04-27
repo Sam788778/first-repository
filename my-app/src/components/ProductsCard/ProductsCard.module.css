@@ -35,7 +35,7 @@ body {
     box-shadow: 0 0 40px rgba(2, 1, 19, 0.1);
     overflow: hidden;
     width: 300px;
-    height: 420px;
+    height: 530px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     background: linear-gradient(135deg, #8b84f4, #cdcbd2);
 }
@@ -75,4 +75,22 @@ body {
     color: #fff;
     font-weight: normal;
     margin-left: 4px;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.buttons button{
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
 }
